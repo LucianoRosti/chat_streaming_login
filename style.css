@@ -1,0 +1,143 @@
+
+/* CSS Document */
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0; }
+
+body {
+    top: 100px;
+    /*height: 96%;
+    font: 95% arial;
+    color: #222;
+    background: #FEFFF4;
+    text-align: center;
+    */
+    margin: 0;
+    padding: 0; }
+
+form, p, span {
+    margin: 0;
+    padding: 0; }
+
+input {
+    background: #FEFFF4;
+    font: 110% arial; }
+
+input[type=submit] {
+    font-size: 100%;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+/*.caixa{
+  border: 10px #ffd600 solid;
+  padding: 20px;
+  width: 260px;
+}
+#titulo{
+  top: 200;
+  width: 200px;
+  padding: 20px;
+  font-weight: bold;
+  border: 10px #ffd600 solid;
+}
+*/
+#wrapper, #loginform {
+    /*margin: 2% auto;*/
+    background: #ffd600;
+    /*width: 95%;
+    height: 95%;*/
+    border: 1px #C7C7C7 solid;
+    padding-top: 25px;
+    margin-top: 0;
+}
+
+#loginform {
+display: block;
+position: absolute;
+top: 50%;
+left: 25%;
+text-align: center;
+padding-top: 18px; 
+width: 50%; 
+height: auto; 
+padding-top: 1.5em; 
+padding-bottom: 2.5em;
+-webkit-transform: translateY( -50% );
+-moz-transform: translateY( -50% );
+transform: translateY( -50% );
+border-radius: 20px;
+}
+
+#loginform p { margin: 5px; }
+
+#chatbox {
+    text-align: left;
+    margin: auto 40px;
+    margin-bottom: 25px;
+    padding: 0.5em 1ex 0.1em;
+    background: #FEFFF4;
+    /*height: 550px;*/
+    height: 500px;
+    /*width: 90%;*/
+    border: 1px solid #C7C7C7;
+    overflow: auto; }
+
+    .embedVideo {
+        position:relative;
+        padding-bottom:60.0%;
+
+        width: 100%;
+        overflow: hidden;
+     }
+    .embedVideo iframe, object, embed{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        border:0;
+
+     }
+#usermsg {
+    width: 85%;
+    padding: 0.5ex;
+    border: 1px solid #C7C7C7;
+    margin-bottom: 40px;
+  }
+
+#submit { width: 60px; }
+#formenviar{
+  margin: auto 40px;
+}
+.error {
+color: #ff0000;
+size:40;
+font-weight: bold;
+left:35%;
+}
+#submitmsg{
+  float: right;
+  margin-bottom: 40px;
+}
+#menu {
+  padding: 12.5px 25px 12.5px 25px;
+}
+
+.welcome { float: left; }
+
+.logout { float: right; }
+
+.msgln { margin:0 0 2px 0; }
+/*.col-6{
+  top: 100px;
+  position: relative;
+  display: inline-block;
+  width: 47%;
+  margin: 0 auto;
+}
+*/
