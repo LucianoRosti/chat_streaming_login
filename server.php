@@ -4,6 +4,8 @@
 if (!isset($_POST['id'])) return;
 $isApc = extension_loaded('apc');
 $id = $_POST['id'];
+$sessionname =$_POST['oi'];
+$xis =$_POST['xis'];
 $cache = $isApc ? apc_fetch('chat') : @unserialize(file_get_contents('./tmp/cache'));
 $data = array();
 if ($id === 'undefined') {
@@ -44,4 +46,4 @@ if ($id === 'undefined') {
     $id = $cache[0][0];
 }
 
-echo json_encode(array('id' => $id, 'data' => $data));
+echo json_encode(array('id' => $id, 'data' => $data,'user'=>$sessionname,'xis'=>$xis));

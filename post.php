@@ -80,3 +80,5 @@ if ($isApc) {
 /* end semafore */
 flock($fh, LOCK_UN);
 fclose($fh);
+$x=$_POST['x'];
+echo json_encode(array('x'=>$x));
