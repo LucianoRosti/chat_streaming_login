@@ -10,6 +10,8 @@
     <body>
 
 <?php
+phpinfo();
+
 echo "teste";
 foreach (glob('./history/*') as $f) {
 
