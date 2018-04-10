@@ -10,7 +10,7 @@
     <body>
 
 <?php
-
+echo "teste";
 foreach (glob('./history/*') as $f) {
 
     echo '<h1>'.basename($f).'</h1>';
